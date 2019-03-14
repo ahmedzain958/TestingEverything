@@ -12,17 +12,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".resocoderapplyonmvvm.ui.quotes.QuotesActivity">
-
-        </activity>
-        <activity android:name=".wiseass.MainActivity"></activity>
-        <activity android:name=".navcomponents.MainActivity">
+        <activity android:name=".navcomponents.resocoder.ResoNavigationMainActivity">
             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".resocoderapplyonmvvm.ui.quotes.QuotesActivity"></activity>
+        <activity android:name=".wiseass.MainActivity" />
+        <activity android:name=".navcomponents.MainActivity">
+          <!--  <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>-->
         </activity>
     </application>
 
