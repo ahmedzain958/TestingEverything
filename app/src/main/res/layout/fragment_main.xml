@@ -5,15 +5,15 @@
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainFragment">
+    tools:context=".navcomponents.MainFragment">
 
 
     <Button
-        android:id="@+id/gotToAccountBtn"
+        android:id="@+id/goToAccountBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        app:layout_constraintBottom_toTopOf="@+id/gotToSettingsBtn"
+        android:text="Go to account"
+        app:layout_constraintBottom_toTopOf="@+id/goToSettingsBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +22,7 @@
         tools:text="Go to account" />
 
     <Button
-        android:id="@+id/gotToSettingsBtn"
+        android:id="@+id/goToSettingsBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go to settings"
@@ -30,5 +30,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gotToAccountBtn" />
+        app:layout_constraintTop_toBottomOf="@+id/goToAccountBtn" />
 </androidx.constraintlayout.widget.ConstraintLayout>

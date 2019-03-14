@@ -16,7 +16,7 @@
 
         </activity>
         <activity android:name=".wiseass.MainActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".navcomponents.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
