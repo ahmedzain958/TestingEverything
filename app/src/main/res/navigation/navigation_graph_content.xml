@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph_content"
+    app:startDestination="@id/tab1ContainerFragment">
+
+    <fragment
+        android:id="@+id/tab1ContainerFragment"
+        android:name="com.hogp.testingeverything.navcomponents.withviewpager.Tab1ContainerFragment"
+        android:label="fragment_tab1_container"
+        tools:layout="@layout/fragment_tab1_container" >
+        <action
+            android:id="@+id/action_tab1ContainerFragment_to_tab2ContainerFragment"
+            app:destination="@id/tab2ContainerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tab2ContainerFragment"
+        android:name="com.hogp.testingeverything.navcomponents.withviewpager.Tab2ContainerFragment"
+        android:label="fragment_tab2_container"
+        tools:layout="@layout/fragment_tab2_container" />
+</navigation>

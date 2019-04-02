@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".casteriorxjavacourse.CasterIoRxJavaActivity">
+        <activity android:name=".navcomponents.withviewpager.NavigationComponentViewPagerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -20,6 +20,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".autocomplete.AutoCompleteActivity">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".progressba.ProgressBarActivity">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".rectiveprogkotlin.Main2Activity" />
+        <activity android:name=".casteriorxjavacourse.CasterIoRxJavaActivity" />
         <activity
             android:name=".recyclerviewfilters.edmtv.FilterRecyclerViewActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -30,23 +53,22 @@
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
             </intent-filter>
-            <!--<intent-filter>
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity android:name=".navcomponents.resocoder.ResoNavigationMainActivity">
+            <!--intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>-->
-        </activity>
-        <activity android:name=".navcomponents.resocoder.ResoNavigationMainActivity">
-
-            <!--
-             <intent-filter>
-                 <action android:name="android.intent.action.MAIN" />
-                 <action android:name="android.intent.action.VIEW" />
-
-                 <category android:name="android.intent.category.LAUNCHER" />
-             </intent-filter>
-            -->
         </activity>
         <activity android:name=".resocoderapplyonmvvm.ui.quotes.QuotesActivity" />
         <activity android:name=".wiseass.MainActivity" />
