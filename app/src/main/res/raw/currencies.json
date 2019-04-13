@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "slug": "bitcoin"
+  },
+  {
+    "id": 2,
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "slug": "bitcoin"
+  },
+  {
+    "id": 3,
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "slug": "bitcoin"
+  },
+  {
+    "id": 4,
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "slug": "bitcoin"
+  },
+  {
+    "id": 5,
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "slug": "bitcoin"
+  },
+  {
+    "id": 6,
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "slug": "bitcoin"
+  },
+  {
+    "id": 7,
+    "name": "Bitcoin",
+    "symbol": "BTC",
+    "slug": "bitcoin"
+  }
+]
